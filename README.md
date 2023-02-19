@@ -5,11 +5,9 @@ Ever wondered how you can bring your personal dotfiles configurations to [Gitpod
 ## How Does this Repo. Works?
 
 - It has a `./setup.sh` file that contains the initial setup script to execute all the scripts to install/ configure required services under `./scripts/` to keep that X service installed on your next Gitpod Workspaces. For example, it contains following scripts:
-  - `./scripts/gpg_configure.sh` is script to configure [GPG](https://www.gnupg.org/) key.
+  - `./scripts/shellcheck_configure.sh` is script to configure shellcheck
   - `./scripts/terraform_configure.sh` is script to setup & configure [Terraform](https://www.terraform.io/).
   - `./scripts/aws_cli_install.sh` to install [AWS CLI](https://aws.amazon.com/cli/).
-  - `./scripts/deno_configure.sh` to install & configure [deno](https://deno.land/).
-  - `./scripts/gcloud_cli_install.sh` to install [Google Cloud CLI](https://cloud.google.com/sdk/docs/install-sdk).
 
 ## How You Can Quickly Use this dotfiles with your Gitpod Workspaces (as template)
 
