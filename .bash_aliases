@@ -1,3 +1,5 @@
-alias gitsha='git rev-parse HEAD'
-alias tf='terraform'
+
+alias g='git'
 alias d='docker'
+alias dc='docker-compose'
+alias tf='terraform'
