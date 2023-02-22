@@ -21,6 +21,3 @@ sudo apt install fonts-firacode
 # Aliases
 rm -f ~/.bash_aliases && cp ~/.dotfiles/.bash_aliases ~/.bash_aliases
 chmod +x ~/.bash_aliases
-
-# Git config
-sudo rm -f ~/.gitconfig && cp ~/.dotfiles/.gitconfig ~/.gitconfig

@@ -8,10 +8,12 @@ Ever wondered how you can bring your personal dotfiles configurations to [Gitpod
 - Configure Aliases
 - Configure Git
 - It has a `./setup.sh` file that contains the initial setup script to execute all the scripts to install/ configure required services under `./scripts/` to keep that X service installed on your next Gitpod Workspaces. For example, it contains following scripts:
+  - `./scripts/git_config.sh` is script to configure Git
+  - `./scripts/task_configure.sh` is script to configure Trunk
   - `./scripts/trunk_configure.sh` is script to configure Trunk
   - `./scripts/shellcheck_configure.sh` is script to configure shellcheck
   - `./scripts/terraform_configure.sh` is script to setup & configure [Terraform](https://www.terraform.io/).
-  - `./scripts/aws_cli_install.sh` to install [AWS CLI](https://aws.amazon.com/cli/).
+  - `./scripts/configure_aws_with_gitpod.sh` to install [AWS CLI](https://aws.amazon.com/cli/) and configure AWS SSO
 
 ## How You Can Quickly Use this dotfiles with your Gitpod Workspaces (as template)
 
